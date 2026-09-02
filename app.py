@@ -6,6 +6,13 @@ def display_weather(city):
     print("Wind Speed: 12 km/h")
 
 
-print("WEATHER MONITORING SYSTEM")
-city = input("Enter city name: ")
+print("================================")
+print("    WEATHER MONITORING SYSTEM")
+print("================================")
+
+city = "Chennai"
 display_weather(city)
+
+print("================================")
+print("Weather monitoring completed.")
+print("================================")
